@@ -1,6 +1,23 @@
 <html>
-<head><title>Modelo de regresión lineal</title></head>
+<head><title>Modelo de regresión lineal</title>
+<style type="text/css">
+  h1{
+    text-align: center;
+    font-size: 30px;
+    font-family: "Arial";
+  }
+  h3{background: linear-gradient(to bottom, #b0adad 0%, #fffdfd 100%);
+    font-size: 15px;
+    font-family: "Arial"
+  }
+  .rojo {color:darkred}
+  .azuly {color:darkblue}
+  .naranjax {color:darkorange}
+  a:hover{color:aqua}
+</style>
+</head>
 <body>
+  
     <h3>
         <a id="enlace" href="https://rdrr.io/cran/wooldridge/man/hprice2.html" 
         title="Dataset en R" target="_blank"> 
@@ -12,11 +29,11 @@
         </p>
         <p id="Párrafo 2">
         Un melo de regresión pretende, a partir de un conjunto de datos, obtener el efecto que
-        una o más variables cuantitativas x tienen en otra variable cuantitativa y. Esto nos permite realizar predicciones sobre cuál será
-        el valor de y en determinados escenarios.    
+        una <span class="rojo">o más</span> variables <span class="rojo">cuantitativas</span>  <span class="naranjax">x</span> tienen en otra variable cuantitativa <span class="azuly">y</span>. Esto nos permite realizar predicciones sobre cuál será
+        el valor de <span class="azuly">y</span> en determinados escenarios.    
         </p>
         <p id="Párrafo 3">
-        Lo primero que hacemos es seleccionar "Price" como variable y e "Lowstat" como variable x.
+        Lo primero que hacemos es seleccionar "Price" como variable <span class="azuly">y</span> e "Lowstat" como variable <span class="naranjax">x</span>.
         De esta forma estamos investigando el efecto que tiene el porcentaje de habitantes cercanos "de bajo estatus"
         en el precio de las viviendas. Al ejecutar la regresión, obtendremos lo siguiente: 
         </p>
