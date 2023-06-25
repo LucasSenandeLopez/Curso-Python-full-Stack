@@ -1,0 +1,64 @@
+<html>
+<head><title>Modelo de regresión lineal</title></head>
+<body>
+    <h3>
+        <a id="enlace" href="https://rdrr.io/cran/wooldridge/man/hprice2.html" 
+        title="Dataset en R" target="_blank"> 
+        Página del dataset en R    
+        </a>
+        <p id="Párrafo 1">
+        Este es un modelo de regresión lineal programado en R. Se ha construido únicamente con 
+        las bibliotecas matlib y readxl con el dataset "hprice2" de Woolridge.   
+        </p>
+        <p id="Párrafo 2">
+        Un melo de regresión pretende, a partir de un conjunto de datos, obtener el efecto que
+        una o más variables cuantitativas x tienen en otra variable cuantitativa y. Esto nos permite realizar predicciones sobre cuál será
+        el valor de y en determinados escenarios.    
+        </p>
+        <p id="Párrafo 3">
+        Lo primero que hacemos es seleccionar "Price" como variable y e "Lowstat" como variable x.
+        De esta forma estamos investigando el efecto que tiene el porcentaje de habitantes cercanos "de bajo estatus"
+        en el precio de las viviendas. Al ejecutar la regresión, obtendremos lo siguiente: 
+        </p>
+        <table border="1">
+        <caption>Datos de la regresión</caption>
+        <tr> 
+        <td>b0</td>   
+        <td>34250.43</td>
+        </tr>
+        <tr>
+        <td>b1</td>
+        <td>-923.82</td>
+        </tr>
+        <tr>
+        <td>R2</td>
+        <td>0.5276</td>
+        </tr>
+        </table>
+        <p>Aquí tenemos una representación del conjunto de datos</p>
+        <img src="C:\Users\Usuario\OneDrive\Imágenes\Lowstat-hprice2" title="Precios de la vivienda y estatus">
+
+
+    </h3>
+</body>
+
+<form action="" method="post" name="Feedback" id="Formulario de feedback">
+  <fieldset>  
+    <label for="Nombre">Nombre:</label>
+    <input type="text" name="Nombre" placeholder="Lucas Senande López"><br/>
+    <label for="De su feedback">Deje su opinión:</label>
+    <textarea name="De su feedback" rows="5" cols="60"></textarea>
+    Selecciona el rating:<br/>
+    <input type="radio" name="Rating", value="5 estrellas">5 estrellas <br/>
+    <input type="radio" name="Rating", value="4 estrellas">4 estrellas <br/>
+    <input type="radio" name="Rating", value="3 estrellas">3 estrellas <br/>
+    <input type="radio" name="Rating", value="2 estrellas">2 estrellas <br/>
+    <input type="radio" name="Rating", value="1 estrella">1 estrella <br/>
+    <input type="submit" name="Enviar" value="Enviar">
+    <input type="image" scr="C:\Users\Usuario\OneDrive\Imágenes\OIP.jpg" name="Enviar"></input>
+  </fieldset>  
+</form>
+
+
+
+</html>
